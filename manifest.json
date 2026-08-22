@@ -2,12 +2,13 @@
   "channels": {
     "stable": {
       "esp32c6": {
-        "file": "firmware/em-esp32c6-1.1.0.bin",
-        "name": "ota-support",
-        "notes": "ESP32-C6 port with self-updating firmware",
-        "sha256": "394e89edfa65078cb2229092070663c34c0b73ed47f60b7783073075efe20437",
-        "size": 1309344,
-        "version": "1.1.0"
+        "file": "firmware/em-esp32c6-1.2.0.bin",
+        "name": "hardening",
+        "notes": "NVS storage, signed images, MQTT command auth",
+        "sha256": "ff65059e5c73a6b3522ae621f7e94503a11feaec4dc9a313c5f37fb3edd99707",
+        "sig": "MEYCIQCFv5UVBY2piJo6ubaXEziZZ4R3gxxto43mclu03qmI/wIhALsdqs0KKJldEaO09bYKR+N6p0V/difjtKX881dS889w",
+        "size": 1312992,
+        "version": "1.2.0"
       }
     }
   },

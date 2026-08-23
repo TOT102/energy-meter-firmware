@@ -2,13 +2,13 @@
   "channels": {
     "stable": {
       "esp32c6": {
-        "file": "firmware/em-esp32c6-1.2.0.bin",
-        "name": "hardening",
-        "notes": "NVS storage, signed images, MQTT command auth",
-        "sha256": "ff65059e5c73a6b3522ae621f7e94503a11feaec4dc9a313c5f37fb3edd99707",
-        "sig": "MEYCIQCFv5UVBY2piJo6ubaXEziZZ4R3gxxto43mclu03qmI/wIhALsdqs0KKJldEaO09bYKR+N6p0V/difjtKX881dS889w",
-        "size": 1312992,
-        "version": "1.2.0"
+        "file": "firmware/em-esp32c6-1.2.1.bin",
+        "name": "ap-password",
+        "notes": "Setup AP password is now unique per device",
+        "sha256": "df3f49c1c52b898837afaa15bd897c9595a376e912eeb311b90d4c428556855d",
+        "sig": "MEUCIGGG3Dsu0v4upth/uXwiXBQ03R5HoVahCDuu1dEWMIVHAiEA/alAoyHdXcQNKvxaRQiHFf4absk7QspQoEFtPuvZTvU=",
+        "size": 1313648,
+        "version": "1.2.1"
       }
     }
   },

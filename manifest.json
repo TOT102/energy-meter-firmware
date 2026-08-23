@@ -2,13 +2,13 @@
   "channels": {
     "stable": {
       "esp32c6": {
-        "file": "firmware/em-esp32c6-1.2.1.bin",
-        "name": "ap-password",
-        "notes": "Setup AP password is now unique per device",
-        "sha256": "df3f49c1c52b898837afaa15bd897c9595a376e912eeb311b90d4c428556855d",
-        "sig": "MEUCIGGG3Dsu0v4upth/uXwiXBQ03R5HoVahCDuu1dEWMIVHAiEA/alAoyHdXcQNKvxaRQiHFf4absk7QspQoEFtPuvZTvU=",
-        "size": 1313648,
-        "version": "1.2.1"
+        "file": "firmware/em-esp32c6-1.2.2.bin",
+        "name": "ap-on-boot",
+        "notes": "Setup AP opens on boot, closes when idle for 5 min",
+        "sha256": "16ebc48a1f94bdfd3a1a5cb5ec7644ba77917927032034b37d9b834f4c9e097b",
+        "sig": "MEUCICtr/PE+HdpxR/9hDgIlwv4lSTGpdHgCeOLwi3kAI70BAiEAsrMqLKOeBqxz15vASOz4J18fuRwRZ6OthrPmmPq4lNA=",
+        "size": 1316960,
+        "version": "1.2.2"
       }
     }
   },

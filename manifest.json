@@ -9,6 +9,15 @@
         "sig": "MEUCICtr/PE+HdpxR/9hDgIlwv4lSTGpdHgCeOLwi3kAI70BAiEAsrMqLKOeBqxz15vASOz4J18fuRwRZ6OthrPmmPq4lNA=",
         "size": 1316960,
         "version": "1.2.2"
+      },
+      "esp32c6-meter-rev1-xtal12": {
+        "file": "firmware/em-esp32c6-meter-rev1-xtal12-1.3.0.bin",
+        "name": "wrong-crystal-prototypes",
+        "notes": "PROTOTYPES ONLY - built for boards with the wrong 12 MHz Y1. Energy and frequency readings are invalid. esp-mqtt, history replay, DNS-outage fix.",
+        "sha256": "cbc74f3c589edc3048bbbee16dccea586b2af7c8ee77dbb0089782955fa6e7bb",
+        "sig": "MEYCIQDUHTGsLH2TVLdyQC/Zj/oYkownXiyMgqXsioA1lbZNBgIhALEn+jVbK0UuX/BQy9hsdvBYmpRsWySjKJ0s8NxKRxrA",
+        "size": 1442848,
+        "version": "1.3.0"
       }
     }
   },

@@ -11,13 +11,13 @@
         "version": "1.2.2"
       },
       "esp32c6-meter-rev1-xtal12": {
-        "file": "firmware/em-esp32c6-meter-rev1-xtal12-1.3.1.bin",
-        "name": "electris-ca",
-        "notes": "PROTOTYPES ONLY - wrong 12 MHz Y1, energy and frequency invalid. Adds the Electris device CA for MQTT TLS; waits for NTP before the TLS handshake.",
-        "sha256": "10b75794f90704e618f1e87969dde48cb5a265a9983c982d8b01926114db1c2b",
-        "sig": "MEYCIQDrZTpqVAL3pkQgB3SsXs1kez94QVaryVcKcXkuUkxZeQIhALKke1Yq0YMU/1jhS2j3X34HJXiBavI1+kDJZ64n7hp9",
-        "size": 1444544,
-        "version": "1.3.1"
+        "file": "firmware/em-esp32c6-meter-rev1-xtal12-1.3.2.bin",
+        "name": "ntp-fix",
+        "notes": "PROTOTYPES ONLY - wrong 12 MHz Y1. Fixes the NTP server string being freed before SNTP used it, which left the clock unset and TLS unable to start.",
+        "sha256": "41cf9bc468392d46c3df8634174b56cf01add072b2a816fc8e2eae866568d938",
+        "sig": "MEUCIQCVtQsbk66MIhAkPv7cJQCnkysr1CLUsovQKhlw6/1MNQIgZi+Nkke8TiSQZ6ywJYldB4YUHyPM7phy5Ae1XkgkR0Y=",
+        "size": 1444688,
+        "version": "1.3.2"
       }
     }
   },
